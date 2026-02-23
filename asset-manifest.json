@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.69fc75d6.css",
-    "main.js": "/static/js/main.bafb0dd9.js",
+    "main.js": "/static/js/main.e9914619.js",
     "static/media/smartsorting_ui.png": "/static/media/smartsorting_ui.61c2f299db2b61c5af0e.png",
     "static/media/SmartParkingDashboard.png": "/static/media/SmartParkingDashboard.da16164c506af50e2a82.png",
     "static/media/ai_meal_dashboard.png": "/static/media/ai_meal_dashboard.097b6752fe75171627a6.png",
     "index.html": "/index.html",
     "main.69fc75d6.css.map": "/static/css/main.69fc75d6.css.map",
-    "main.bafb0dd9.js.map": "/static/js/main.bafb0dd9.js.map"
+    "main.e9914619.js.map": "/static/js/main.e9914619.js.map"
   },
   "entrypoints": [
     "static/css/main.69fc75d6.css",
-    "static/js/main.bafb0dd9.js"
+    "static/js/main.e9914619.js"
   ]
 }
