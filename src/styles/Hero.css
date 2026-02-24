@@ -5,6 +5,8 @@
   padding: 60px 20px;
   background: linear-gradient(135deg, #0f172a, #020617);
   color: white;
+  justify-content: center;   /* centers horizontally */
+  text-align: center;        /* centers text */
 }
 
 .hero-content {
@@ -36,6 +38,8 @@
 .hero-actions {
   display: flex;
   gap: 15px;
+  justify-content: center;  /* centers buttons */
+  margin-top: 30px;
 }
 
 /* BUTTONS */

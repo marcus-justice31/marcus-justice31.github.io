@@ -3,6 +3,7 @@ import projects from "./data/projects";
 import Projects from "./components/Projects";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import TechFilter from "./components/TechFilter";
 import "./App.css";
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
       </section> */}
       <About />
 
-      <section ref={filterRef}>
+      {/* <section ref={filterRef}>
         <h3>Filter by Technology</h3>
 
         <div className="tag-legend">
@@ -79,7 +80,14 @@ function App() {
             </button>
           </p>
         )}
-      </section>
+      </section> */}
+      <TechFilter
+        allTags={allTags}
+        activeTags={activeTags}
+        setActiveTags={setActiveTags}
+        filterRef={filterRef}
+      />
+      
 
       {/* Projects */}
       <section>
