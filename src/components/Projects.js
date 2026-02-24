@@ -11,15 +11,17 @@ function Projects({ projects, activeTags }) {
         );
 
   return (
-    <section>
-      <h3>Projects</h3>
+    <section className="projects-section" id="projects">
+      <div className="projects-header">
+        <h3>Projects</h3>
+        <p>A selection of applications and systems I’ve built.</p>
+      </div>
 
-      {filteredProjects.map((project) => (
-        <ProjectCard
-          key={project.id}
-          project={project}
-        />
-      ))}
+      <div className="projects-list">
+        {filteredProjects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
     </section>
   );
 }

@@ -1,0 +1,29 @@
+.projects-section {
+  padding: 80px 20px;
+  background: #020617; /* match hero dark tone */
+  color: white;
+}
+
+.projects-header {
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+.projects-header h3 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.projects-header p {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.projects-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

@@ -61,9 +61,12 @@ const projects = [
     tags: [
       { name: "React", color: "#49d2f8ff" },
       { name: "Python", color: "#0283d3ff" },
+      { name: "JavaScript", color: "#f7df1e" },
       { name: "HTML", color: "#f7781eff" },
       { name: "CSS", color: "#9d1ef7ff" },
-      { name: "Flask", color: "#2e9db3ff" },
+      { name: "FastAPI", color: "#55d5b5ff" },
+      { name: "MongoDB", color: "#00684A" },
+      { name: "Azure Cloud", color: "#0283d3ff" },
       { name: "Git", color: "#2c3030ff" },
     ],
     github: "https://github.com/marcus-justice31/smart-parking-system",
