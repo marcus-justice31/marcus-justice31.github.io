@@ -41,6 +41,7 @@ const projects = [
       { name: "HTML", color: "#f7781eff" },
       { name: "CSS", color: "#9d1ef7ff" },
       { name: "Flask", color: "#2e9db3ff" },
+      { name: "Ultralytics", color: "#00253cff"},
       { name: "Git", color: "#2c3030ff" },
     ],
     github: "https://github.com/marcus-justice31/smart-sorting-waste-system",
@@ -67,12 +68,15 @@ const projects = [
       { name: "FastAPI", color: "#55d5b5ff" },
       { name: "MongoDB", color: "#00684A" },
       { name: "Azure Cloud", color: "#0283d3ff" },
+      { name: "RabbitMQ", color: "#f7781eff" },
       { name: "Git", color: "#2c3030ff" },
     ],
     github: "https://github.com/marcus-justice31/smart-parking-system",
     details: [
       "Built a responsive user interface in React with dynamic dashboards for both users and admins, supporting real-time updates and scalable system interaction",
       "Developed 10+ backend API endpoints for user authentication, dynamic pricing, wallet management, and admin controls, improving system scalability and usability",
+      "Utilizes RabbitMQ message-broker software to enable asynchronous communication and prevents multiple users from purchasing a parking spot at the same time (race condition)",
+      "Implemented dynamic pricing based on the time of the day (higher pricing during peak hours)"
     ],
   },
 ];
