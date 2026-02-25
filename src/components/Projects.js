@@ -15,7 +15,7 @@ function Projects({ projects, activeTags }) {
 
       <div className="projects-list">
         {filteredProjects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
+          <ProjectCard key={project.title} project={project} />
         ))}
       </div>
     </section>

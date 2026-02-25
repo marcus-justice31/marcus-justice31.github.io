@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div className="project-card">
+    <div className="project-card"> 
       <img src={project.image} alt={project.title} />
 
       <div className="project-content">

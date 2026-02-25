@@ -1,3 +1,5 @@
+// import placeHolderImg from "../assets/banners/image-coming-soon-placeholder.webp";
+import placeHolder from "../assets/banners/placeHolder.jpg";
 import mealDashboardImg from "../assets/banners/ai_meal_dashboard.png";
 import smartSortingUiImg from "../assets/banners/smartsorting_ui.png";
 import smartParkingImg from "../assets/banners/SmartParkingDashboard.png";
@@ -6,10 +8,10 @@ import ecommerceUI from "../assets/banners/ecommerceUI.png";
 import cpu_implementation from "../assets/banners/cpu_implementation.png";
 import p2p_3peersDownload from "../assets/banners/p2p_3peersDownload.png"
 import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
+import bankingUI from "../assets/banners/bankingUI.png";
 
 const projects = [
   {
-    id: 1,
     title: "Meal Planning App",
     description:
       "A React app that generates personalized meal plans using the OpenAI API.",
@@ -35,7 +37,6 @@ const projects = [
   },
 
   {
-    id: 2,
     title: "Smart Waste Sorting System",
     description:
       "A YOLOv11-powered Smart Waste Sorting System for real-time waste classification into garbage, recyclables, and compost.",
@@ -59,7 +60,6 @@ const projects = [
   },
 
   {
-    id: 3,
     title: "Smart Parking System",
     description:
       "A cloud-native, smart parking system that simulates IoT sensors to monitor parking space availability in real-time.",
@@ -86,7 +86,6 @@ const projects = [
   },
 
   {
-    id: 4,
     title: "Online Order Express React",
     description:
       "An online ordering system for food items that has a functioning PayPal checkout system.",
@@ -102,30 +101,31 @@ const projects = [
     ],
     github: "https://github.com/marcus-justice31/OnlineOrder-ExpressReact",
     details: [
-      "loem",
+      "Designed and implemented an online shopping web application following a MERN (MongoDB, Express, React, Node) tech stack",
+      "Utilized the ReactJS framework to create an interactive webpage for adding and deleting items to a shopping cart",
+      "Implemented a checkout system using PayPal’s JavaScript SDK and PayPal’s REST APIs",
+      "Utilized the ExpressJS framework to employ middleware to transmit shopping cart data as JSON to the server, then to store it onto a NoSQL cloud database",
     ],
   },
 
-
   {
-    id: 5,
-    title: "E-Commerce Application",
+    title: "Secure ATM Banking System",
     description:
-      "An E-Commerce DBMS where users can buy/sell items, developed using Java and Oracle SQL.",
-    image: ecommerceUI,
+      "A system which ensures the confidentiality, integrity and authenticity of all transactions between the ATM client and the banking server.",
+    image: bankingUI,
     tags: [
       { name: "Java", color: "#f7781eff" },
-      { name: "JavaFX", color: "#9d1ef7ff" },
-      { name: "Oracle SQL", color: "#00684A" }
+      { name: "Java Swing", color: "#9d1ef7ff" },
+      { name: "Computer Networking", color: "#7e7e7eff" },
+      { name: "Cryptography", color: "rgb(202, 29, 89)" },
     ],
-    github: "https://github.com/marcus-justice31/E-Commerce-App",
+    github: "https://github.com/marcus-justice31/Secure-ATM-Banking-System",
     details: [
       "fxixx",
     ],
   },
 
   {
-    id: 6,
     title: "Peer-to-Peer Application",
     description:
       "A Peer-to-Peer (P2P) file-sharing application using socket programming.",
@@ -141,7 +141,43 @@ const projects = [
   },
 
   {
-    id: 7,
+    title: "E-Commerce Application",
+    description:
+      "An E-Commerce DBMS where users can buy/sell items, developed using Java and Oracle SQL.",
+    image: ecommerceUI,
+    tags: [
+      { name: "Java", color: "#f7781eff" },
+      { name: "JavaFX", color: "#9d1ef7ff" },
+      { name: "Oracle SQL", color: "#00684A" }
+    ],
+    github: "https://github.com/marcus-justice31/E-Commerce-App",
+    details: [
+      "Developed a Java application with an integrated Oracle SQL database to perform efficient data querying and retrieval",
+      "Designed and modeled a relational database system using ER diagrams with 5 entities and 4-10 attributes each",
+      "Implemented 6+ advanced SQL queries for data retrieval",
+      "Applied Bernstein’s Algorithm to normalize the schema and remove data redundancies",
+      "Built a functional JavaFX UI where users can create an account to buy and sell items",
+      "Users can log into the application and have a page where they can view all their listed items that have not been sold, and can list more items",
+      "Users can view other listed items on a buy page, and have the option to buy those items (exploring buy page excludes their own listed items) "
+    ],
+  },
+
+  {
+    title: "Music Web Application",
+    description:
+      "A -----------",
+    image: placeHolder,
+    tags: [
+      { name: "Java", color: "#f7781eff" },
+      { name: "JavaFX", color: "#9d1ef7ff" },
+    ],
+    github: "https://github.com/marcus-justice31/Song-Sharing-App",
+    details: [
+      "fxixx",
+    ],
+  },
+
+  {
     title: "CPU Implementation using VHDL",
     description:
       "A CPU implementation that can perform 26 different mnemonic operations",
