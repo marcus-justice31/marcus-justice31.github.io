@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.ef769232.css",
-    "main.js": "/static/js/main.e819be22.js",
+    "main.js": "/static/js/main.a192f968.js",
+    "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/smartsorting_ui.png": "/static/media/smartsorting_ui.61c2f299db2b61c5af0e.png",
+    "static/media/p2p_3peersDownload.png": "/static/media/p2p_3peersDownload.c4921648fe69d62a93bb.png",
+    "static/media/cpu_implementation.png": "/static/media/cpu_implementation.7d5df68d4e4469837d99.png",
     "static/media/SmartParkingDashboard.png": "/static/media/SmartParkingDashboard.da16164c506af50e2a82.png",
     "static/media/ai_meal_dashboard.png": "/static/media/ai_meal_dashboard.097b6752fe75171627a6.png",
+    "static/media/ecommerceUI.png": "/static/media/ecommerceUI.3e3aad05f28835d6fecc.png",
     "index.html": "/index.html",
     "main.ef769232.css.map": "/static/css/main.ef769232.css.map",
-    "main.e819be22.js.map": "/static/js/main.e819be22.js.map"
+    "main.a192f968.js.map": "/static/js/main.a192f968.js.map"
   },
   "entrypoints": [
     "static/css/main.ef769232.css",
-    "static/js/main.e819be22.js"
+    "static/js/main.a192f968.js"
   ]
 }
