@@ -30,7 +30,7 @@ const About = () => {
       </p>
 
       <p>
-        Outside of engineering, I enjoy staying healthy through swimming and fitness, and spending time with friends and family.
+        Outside of engineering, I enjoy staying healthy through swimming and fitness, staying connected with friends, and spending time with family.
         I am always looking to better myself, both mentally and physically, and pushing beyond my comfort zone.
       </p>
 
