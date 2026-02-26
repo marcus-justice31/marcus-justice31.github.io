@@ -21,6 +21,16 @@ const Hero = ({ onViewProjects }) => {
           >
             View Projects
           </button>
+
+          <a
+            href="/assets/MarcusUy_Resume_2026.pdf" // works cuz public is the root for static assets when deployed
+            target="_blank"       // opens in a new tab
+            rel="noopener noreferrer"
+            className="btn secondary"
+          >
+            View Resume
+          </a>
+
           <a
             href="https://github.com/marcus-justice31"
             target="_blank"

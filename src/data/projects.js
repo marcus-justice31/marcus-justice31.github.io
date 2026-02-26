@@ -33,6 +33,8 @@ const projects = [
       "Integrated OpenAI API for dynamic meal plan generation",
       "Stored user preferences and meal plans using MongoDB",
       "Designed prompts to minimize API cost while maintaining accuracy",
+      "Users are able to generate new meal plans tailored towards their fitness goals (i.e. weight loss), their current body composition, as well as their activity levels and dietary restrictions",
+      "Future plans for this application is to create recipes and cooking instructions for the generated meal plans"
     ],
   },
 
@@ -72,6 +74,7 @@ const projects = [
       { name: "CSS", color: "#9d1ef7ff" },
       { name: "FastAPI", color: "#55d5b5ff" },
       { name: "MongoDB", color: "#00684A" },
+      { name: "Docker", color: "#0283d3" },
       { name: "Azure Cloud", color: "#0283d3ff" },
       { name: "RabbitMQ", color: "#f7781eff" },
       { name: "Git", color: "#2c3030ff" },
@@ -81,7 +84,8 @@ const projects = [
       "Built a responsive user interface in React with dynamic dashboards for both users and admins, supporting real-time updates and scalable system interaction",
       "Developed 10+ backend API endpoints for user authentication, dynamic pricing, wallet management, and admin controls, improving system scalability and usability",
       "Utilizes RabbitMQ message-broker software to enable asynchronous communication and prevents multiple users from purchasing a parking spot at the same time (race condition)",
-      "Implemented dynamic pricing based on the time of the day (higher pricing during peak hours)"
+      "Deployed React (frontend) and FastAPI (backend) on on Azure using separate Docker containers, enabling service-to-service communication over HTTP",
+      "Implemented dynamic, time-based pricing by fetching local device time to apply higher rates during peak hours"
     ],
   },
 
@@ -169,7 +173,7 @@ const projects = [
     ],
     github: "https://github.com/marcus-justice31/Song-Sharing-App",
     details: [
-      "Designed and implemented a Java-based microservices architecture using Kubernetes for service orchestration and Docker for containerization",
+      "Designed and implemented a Java-based microservices architecture using Docker for containerization and Kubernetes for service orchestration defined through YAML",
       "Designed system using UML and ER diagrams and utilized object-oriented programming principles to design modular and maintainable code",
       "Deployed backend services using Apache Tomcat as middleware to handle HTTP requests, servlets, and REST endpoints",
       "Built frontend microservices that aggregate backend service responses and dynamically renders content using servlets and JSPs",
