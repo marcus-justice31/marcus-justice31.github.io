@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.ef769232.css",
-    "main.js": "/static/js/main.7eacb04b.js",
+    "main.js": "/static/js/main.5de61243.js",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/smartsorting_ui.png": "/static/media/smartsorting_ui.61c2f299db2b61c5af0e.png",
     "static/media/p2p_3peersDownload.png": "/static/media/p2p_3peersDownload.c4921648fe69d62a93bb.png",
     "static/media/cpu_implementation.png": "/static/media/cpu_implementation.7d5df68d4e4469837d99.png",
     "static/media/SmartParkingDashboard.png": "/static/media/SmartParkingDashboard.da16164c506af50e2a82.png",
+    "static/media/ai_meal_dashboard.png": "/static/media/ai_meal_dashboard.080cdd20de7d972d7210.png",
     "static/media/bankingUI.png": "/static/media/bankingUI.a4fb767b9c5b3d5eaa3e.png",
-    "static/media/ai_meal_dashboard.png": "/static/media/ai_meal_dashboard.097b6752fe75171627a6.png",
     "static/media/ecommerceUI.png": "/static/media/ecommerceUI.3e3aad05f28835d6fecc.png",
     "static/media/placeHolder.jpg": "/static/media/placeHolder.62a99c3f98541235a7f1.jpg",
     "index.html": "/index.html",
     "main.ef769232.css.map": "/static/css/main.ef769232.css.map",
-    "main.7eacb04b.js.map": "/static/js/main.7eacb04b.js.map"
+    "main.5de61243.js.map": "/static/js/main.5de61243.js.map"
   },
   "entrypoints": [
     "static/css/main.ef769232.css",
-    "static/js/main.7eacb04b.js"
+    "static/js/main.5de61243.js"
   ]
 }
