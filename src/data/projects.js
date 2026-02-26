@@ -152,6 +152,33 @@ const projects = [
   },
 
   {
+    title: "Music Sharing Web Application",
+    description:
+      "A cloud-native music sharing application with microservices containerized via Docker, managed by Kubernetes, and hosted on Google Cloud.",
+    image: placeHolder,
+    tags: [
+      { name: "Java", color: "#f7781eff" },
+      { name: "Appache Tomcat", color: "#f7df1e" },
+      { name: "MySQL", color: "#00684A" },
+      { name: "Kubernetes", color: "#0283d3ff" },
+      { name: "Docker", color: "#0283d3" },
+      { name: "Google Cloud", color: "#008e09" },
+      { name: "JSP", color: "#7e7e7eff" },
+      { name: "HTML", color: "#f7781eff" },
+      { name: "CSS", color: "#9d1ef7ff" },
+    ],
+    github: "https://github.com/marcus-justice31/Song-Sharing-App",
+    details: [
+      "Designed and implemented a Java-based microservices architecture using Kubernetes for service orchestration and Docker for containerization",
+      "Designed system using UML and ER diagrams and utilized object-oriented programming principles to design modular and maintainable code",
+      "Deployed backend services using Apache Tomcat as middleware to handle HTTP requests, servlets, and REST endpoints",
+      "Built frontend microservices that aggregate backend service responses and dynamically renders content using servlets and JSPs",
+      "Implemented asynchronous event-driven communication between microservices using KubeMQ",
+      "Designed relational schemas linking users to songs via foreign keys, enabling efficient user-specific data retrieval",
+    ],
+  },
+
+  {
     title: "E-Commerce Application",
     description:
       "An E-Commerce DBMS where users can buy/sell items, developed using Java and Oracle SQL.",
@@ -170,21 +197,6 @@ const projects = [
       "Built a functional JavaFX UI where users can create an account to buy and sell items",
       "Users can log into the application and have a page where they can view all their listed items that have not been sold, and can list more items",
       "Users can view other listed items on a buy page, and have the option to buy those items (exploring buy page excludes their own listed items) "
-    ],
-  },
-
-  {
-    title: "Music Web Application",
-    description:
-      "A -----------",
-    image: placeHolder,
-    tags: [
-      { name: "Java", color: "#f7781eff" },
-      { name: "JavaFX", color: "#9d1ef7ff" },
-    ],
-    github: "https://github.com/marcus-justice31/Song-Sharing-App",
-    details: [
-      "fxixx",
     ],
   },
 
