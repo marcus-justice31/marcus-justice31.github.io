@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Meal Planning App",
     description:
-      "A React app that generates personalized meal plans using the OpenAI API.",
+      "A React app that generates personalized meal plans based on personal goals, utilizing the OpenAI API.",
     image: mealDashboardImg,
     tags: [
       { name: "React", color: "#49d2f8ff" },
@@ -111,7 +111,7 @@ const projects = [
   {
     title: "Secure ATM Banking System",
     description:
-      "A system which ensures the confidentiality, integrity and authenticity of all transactions between the ATM client and the banking server.",
+      "A Java system which ensures the confidentiality, integrity and authenticity of all transactions between the ATM client and the banking server.",
     image: bankingUI,
     tags: [
       { name: "Java", color: "#f7781eff" },
@@ -121,14 +121,20 @@ const projects = [
     ],
     github: "https://github.com/marcus-justice31/Secure-ATM-Banking-System",
     details: [
-      "fxixx",
+      "Implemented secure ATM transaction procedures involving mutual authentication through RSA, offering confidentiality to messages through AES, and guaranteeing integrity to messages using HMAC",
+      "The system logs audits to monitor and validate transactional action and help create accountability",
+      "The frontend is a simple GUI (using Java Swing) representing the ATM interface for the client",
+      "The server was designed to authenticate the users, processes transactions, and maintains accounts",
+      "Implemented an audit logging module securely logs all transaction activity",
+      "Implemented assistance for secure account management, including password handling, encrypted message exchange, replay attack prevention using timestamps, and cryptographic message authentication codes (MACs)",
+      "The design aims to replicate a multiuser environment, where multiple clients may connect and interact with the server simultaneously"
     ],
   },
 
   {
     title: "Peer-to-Peer Application",
     description:
-      "A Peer-to-Peer (P2P) file-sharing application using socket programming.",
+      "A Peer-to-Peer (P2P) file-sharing application demonstrates the fundamentals of socket programming and the interactions between clients and servers using both UDP and TCP protocols.",
     image: p2p_3peersDownload,
     tags: [
       { name: "C", color: "#f7781eff" },
@@ -136,7 +142,12 @@ const projects = [
     ],
     github: "https://github.com/marcus-justice31/Peer-to-Peer-Application",
     details: [
-      "fxixx",
+      "The system consisted of an index server and multiple peers, with communication facilitated by different PDU types",
+      "The index server facilitates peer registration, content listing, and content deregistration, while peers communicate directly to exchange files",
+      "The system correctly handles content registration and de-registration, ensuring that content is only available for download if it is actively registered by a peer",
+      "The client-server interaction using UDP for communication between peers and the index server was efficient, enabling fast content listing and registration",
+      "TCP was successfully employed for reliable file transfers between peers, ensuring no data loss during the download process",
+      "Error handling was effectively implemented through the use of ERROR packets, which provided feedback in case of issues such as missing content or failed downloads",
     ],
   },
 

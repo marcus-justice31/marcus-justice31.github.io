@@ -29,6 +29,11 @@ const About = () => {
         designing systems that are both user-friendly and reliable.
       </p>
 
+      <p>
+        Outside of engineering, I enjoy staying healthy through swimming and fitness, and spending time with friends and family.
+        I am always looking to better myself, both mentally and physically, and pushing beyond my comfort zone.
+      </p>
+
       <div className="about-highlights">
         {Object.entries(aboutData).map(([category, items]) => (
           <div key={category}>
