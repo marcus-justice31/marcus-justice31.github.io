@@ -1,5 +1,6 @@
 // import placeHolderImg from "../assets/banners/image-coming-soon-placeholder.webp";
 import placeHolder from "../assets/banners/placeHolder.jpg";
+import noIMGavailable from "../assets/banners/noIMGavailable.jpg";
 import mealDashboardImg from "../assets/banners/ai_meal_dashboard.png";
 import smartSortingUiImg from "../assets/banners/smartsorting_ui.png";
 import smartParkingImg from "../assets/banners/SmartParkingDashboard.png";
@@ -159,7 +160,7 @@ const projects = [
     title: "Music Sharing Web Application",
     description:
       "A cloud-native music sharing application with microservices containerized via Docker, managed by Kubernetes, and hosted on Google Cloud.",
-    image: placeHolder,
+    image: noIMGavailable,
     tags: [
       { name: "Java", color: "#f7781eff" },
       { name: "Appache Tomcat", color: "#f7df1e" },

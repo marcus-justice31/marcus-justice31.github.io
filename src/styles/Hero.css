@@ -49,6 +49,8 @@
   font-weight: 600;
   text-decoration: none;
   transition: transform 0.15s ease, background 0.15s ease;
+  text-align: center;
+  line-height: 0;
 }
 
 .btn.primary {
