@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05ecb8f6.css",
-    "main.js": "/static/js/main.101ee63b.js",
+    "main.js": "/static/js/main.8633fb87.js",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/smartsorting_ui.png": "/static/media/smartsorting_ui.61c2f299db2b61c5af0e.png",
     "static/media/p2p_3peersDownload.png": "/static/media/p2p_3peersDownload.c4921648fe69d62a93bb.png",
@@ -13,10 +13,10 @@
     "static/media/noIMGavailable.jpg": "/static/media/noIMGavailable.b725ea3f4bc773c78511.jpg",
     "index.html": "/index.html",
     "main.05ecb8f6.css.map": "/static/css/main.05ecb8f6.css.map",
-    "main.101ee63b.js.map": "/static/js/main.101ee63b.js.map"
+    "main.8633fb87.js.map": "/static/js/main.8633fb87.js.map"
   },
   "entrypoints": [
     "static/css/main.05ecb8f6.css",
-    "static/js/main.101ee63b.js"
+    "static/js/main.8633fb87.js"
   ]
 }
