@@ -7,6 +7,8 @@ const developerTools = [
   "Google Colab",
   "Microsoft 365",
   "RabbitMQ",
+  "Selenium",
+  "JUnit"
 ];
 
 export default developerTools;

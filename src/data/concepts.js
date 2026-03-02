@@ -6,7 +6,10 @@ const concepts = [
   "Multithreading",
   "Networking",
   "Operating Systems",
-  "Machine Learning Fundamentals"
+  "Machine Learning Fundamentals",
+  "Software Project Management",
+  "Software Testing and Quality Assurance",
+  "Computer Vision"
 ];
 
 export default concepts;
