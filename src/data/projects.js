@@ -1,5 +1,5 @@
 // import placeHolderImg from "../assets/banners/image-coming-soon-placeholder.webp";
-import placeHolder from "../assets/banners/placeHolder.jpg";
+// import placeHolder from "../assets/banners/placeHolder.jpg";
 import noIMGavailable from "../assets/banners/noIMGavailable.jpg";
 import mealDashboardImg from "../assets/banners/ai_meal_dashboard.png";
 import smartSortingUiImg from "../assets/banners/smartsorting_ui.png";
@@ -10,8 +10,35 @@ import cpu_implementation from "../assets/banners/cpu_implementation.png";
 import p2p_3peersDownload from "../assets/banners/p2p_3peersDownload.png"
 import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
 import bankingUI from "../assets/banners/bankingUI.png";
+import ecommerce_bi_dashboard from "../assets/banners/ecommerce_bi_dashboard.png"
 
 const projects = [
+  {
+    title: "Ecommerce BI Dashboard – Databricks Lakehouse Project",
+    description:
+      "An ecommerce analytics lakehouse in Databricks using Medallion Architecture (Bronze, Silver, Gold) to process raw transactional data and generate business insights through dashboards.",
+    image: ecommerce_bi_dashboard,
+    tags: [
+      { name: "DataBricks", color: "rgb(209, 56, 48)" },
+      { name: "Python", color: "#0283d3ff" },
+      { name: "PySpark", color: "#f7781eff" },
+      { name: "SQL", color: "#00684A" },
+      { name: "Jupyter Notebook", color: "#f7781eff" },
+      { name: "Data Engineering", color: "#7e7e7eff" },
+    ],
+    github: "https://github.com/marcus-justice31/ecommerce-bi-dashboard",
+    details: [
+      "Implemented a Medallion Architecture (Bronze, Silver, Gold) in Databricks, creating 6 schemas to structure raw, cleaned, and analytics-ready ecommerce datasets",
+      "Processed 80,000+ rows and 35+ attributes of ecommerce data using PySpark and SQL within Databricks notebooks",
+      "Ingested 100,000+ historical order records from multiple CSV files representing 3 months of transactional data",
+      "Performed data cleaning and transformation including handling null values, datatype mismatches, duplicates, anomalies, and inconsistent categorical values",
+      "Utilized Delta Lake tables for schema enforcement, transaction logging, and reliable data storage within the lakehouse architecture",
+      "Transformed raw transactional data into fact and dimension-style tables for downstream analytical queries",
+      "Built a Databricks dashboard to visualize key business insights including monthly sales trends and net revenue by product category",
+      "Applied PySpark DataFrame transformations to clean, validate, and aggregate ecommerce datasets for analytical reporting"
+    ],
+  },
+
   {
     title: "Meal Planning App",
     description:

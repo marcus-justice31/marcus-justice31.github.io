@@ -8,7 +8,8 @@ const developerTools = [
   "Microsoft 365",
   "RabbitMQ",
   "Selenium",
-  "JUnit"
+  "JUnit",
+  "Databricks"
 ];
 
 export default developerTools;

@@ -8,6 +8,7 @@ const libraries = [
   "MySQL",
   "Oracle SQL",
   "OpenAI API",
+  "PySpark"
 ];
 
 export default libraries;
