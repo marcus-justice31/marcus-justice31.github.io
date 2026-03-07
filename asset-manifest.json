@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c834fde8.css",
-    "main.js": "/static/js/main.525ee135.js",
+    "main.js": "/static/js/main.cc65aa3b.js",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/smartsorting_ui.png": "/static/media/smartsorting_ui.61c2f299db2b61c5af0e.png",
+    "static/media/ecommerce_bi_dashboard.png": "/static/media/ecommerce_bi_dashboard.111349182c6b95fd050e.png",
     "static/media/p2p_3peersDownload.png": "/static/media/p2p_3peersDownload.c4921648fe69d62a93bb.png",
     "static/media/cpu_implementation.png": "/static/media/cpu_implementation.7d5df68d4e4469837d99.png",
     "static/media/SmartParkingDashboard.png": "/static/media/SmartParkingDashboard.da16164c506af50e2a82.png",
@@ -13,10 +14,10 @@
     "static/media/noIMGavailable.jpg": "/static/media/noIMGavailable.b725ea3f4bc773c78511.jpg",
     "index.html": "/index.html",
     "main.c834fde8.css.map": "/static/css/main.c834fde8.css.map",
-    "main.525ee135.js.map": "/static/js/main.525ee135.js.map"
+    "main.cc65aa3b.js.map": "/static/js/main.cc65aa3b.js.map"
   },
   "entrypoints": [
     "static/css/main.c834fde8.css",
-    "static/js/main.525ee135.js"
+    "static/js/main.cc65aa3b.js"
   ]
 }
