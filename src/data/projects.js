@@ -1,16 +1,16 @@
 // import placeHolderImg from "../assets/banners/image-coming-soon-placeholder.webp";
 // import placeHolder from "../assets/banners/placeHolder.jpg";
 import noIMGavailable from "../assets/banners/noIMGavailable.jpg";
-import mealDashboardImg from "../assets/banners/ai_meal_dashboard.png";
-import smartSortingUiImg from "../assets/banners/smartsorting_ui.png";
+import mealDashboardImg from "../assets/banners/(compress)_ai_meal_dashboard.png";
+import smartSortingUiImg from "../assets/banners/(compress)_smartsorting_ui.png";
 import smartParkingImg from "../assets/banners/SmartParkingDashboard.png";
 import ecommerceUI from "../assets/banners/ecommerceUI.png";
 // import ecommerceUI2 from "../assets/banners/ecommerceUI2.png";
 import cpu_implementation from "../assets/banners/cpu_implementation.png";
-import p2p_3peersDownload from "../assets/banners/p2p_3peersDownload.png"
+import p2p_3peersDownload from "../assets/banners/(compress)_p2p_3peersDownload.png"
 import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
 import bankingUI from "../assets/banners/bankingUI.png";
-import ecommerce_bi_dashboard from "../assets/banners/ecommerce_bi_dashboard.png"
+import ecommerce_bi_dashboard from "../assets/banners/(compress)_ecommerce_bi_dashboard.png"
 
 const projects = [
   {
