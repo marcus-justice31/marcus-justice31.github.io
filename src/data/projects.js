@@ -10,9 +10,36 @@ import cpu_implementation from "../assets/banners/cpu_implementation.png";
 import p2p_3peersDownload from "../assets/banners/(compress)_p2p_3peersDownload.png"
 import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
 import bankingUI from "../assets/banners/bankingUI.png";
-import ecommerce_bi_dashboard from "../assets/banners/(compress)_ecommerce_bi_dashboard.png"
+import ecommerce_bi_dashboard from "../assets/banners/(compress)_ecommerce_bi_dashboard.png";
+import fm_bank_dashboard from "../assets/banners/(compress)_fm_bank_dashboard.png";
 
 const projects = [
+  {
+    title: "Banking Web App (in progress)",
+    description:
+      "A full-stack banking app with real-time transaction tracking, multi-account integration, and secure money transfers using Next.js, Appwrite, and Plaid.",
+    image: fm_bank_dashboard,
+    tags: [
+      { name: "TypeScript", color: "#0283d3ff" },
+      { name: "Tailwind CSS", color: "#9d1ef7ff" },
+      { name: "Appwrite", color: "rgb(250, 55, 91)" },
+      { name: "Next.js", color: "#353535" },
+      { name: "Shadcn", color: "#353535" },
+      { name: "Zod", color: "#004793" },
+      { name: "Plaid", color: "#353535" },
+      
+    ],
+    github: "https://github.com/marcus-justice31/Finance-Management-Banking-App",
+    details: [
+      "Implemented a platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other users, and to manage their finances through a dashboard with visualizations and insights.",
+      "Utilized Appwrite and Zod for secure SSR authentication with proper validations and error handling, ensuring robust user authentication and session management",
+      "Designed a responsive and intuitive UI using Tailwind CSS and Shadcn components, providing users with a seamless experience across devices",
+      "Integrated Plaid API to securely connect users' bank accounts, fetch transaction data, and enable real-time updates on the dashboard",
+      // "Implemented a money transfer feature that allows users to send funds to other users within the platform, with proper validation and error handling to ensure secure transactions",
+      // "Designed and implemented a finance management dashboard that provides users with insights into their spending habits, categorizes transactions, and offers visualizations for better financial understanding"
+    ],
+  },
+
   {
     title: "Ecommerce BI Dashboard – Databricks Lakehouse Project",
     description:
