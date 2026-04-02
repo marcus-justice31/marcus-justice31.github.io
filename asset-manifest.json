@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c834fde8.css",
-    "main.js": "/static/js/main.6046034e.js",
+    "main.js": "/static/js/main.daddf177.js",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/cpu_implementation.png": "/static/media/cpu_implementation.7d5df68d4e4469837d99.png",
     "static/media/SmartParkingDashboard.png": "/static/media/SmartParkingDashboard.da16164c506af50e2a82.png",
@@ -10,15 +10,15 @@
     "static/media/ecommerceUI.png": "/static/media/ecommerceUI.3e3aad05f28835d6fecc.png",
     "static/media/(compress)_p2p_3peersDownload.png": "/static/media/(compress)_p2p_3peersDownload.e17e32d1fcb2b385ab3e.png",
     "static/media/(compress)_ecommerce_bi_dashboard.png": "/static/media/(compress)_ecommerce_bi_dashboard.611ae519053296fd37d6.png",
-    "static/media/(compress)_fm_bank_dashboard.png": "/static/media/(compress)_fm_bank_dashboard.085563969dbc40c883d6.png",
+    "static/media/(compress)_fm_bank_dashboard.png": "/static/media/(compress)_fm_bank_dashboard.2054c4b014cce7261cb8.png",
     "static/media/(compress)_ai_meal_dashboard.png": "/static/media/(compress)_ai_meal_dashboard.1c9b355a4b56d353bd9b.png",
     "static/media/noIMGavailable.jpg": "/static/media/noIMGavailable.b725ea3f4bc773c78511.jpg",
     "index.html": "/index.html",
     "main.c834fde8.css.map": "/static/css/main.c834fde8.css.map",
-    "main.6046034e.js.map": "/static/js/main.6046034e.js.map"
+    "main.daddf177.js.map": "/static/js/main.daddf177.js.map"
   },
   "entrypoints": [
     "static/css/main.c834fde8.css",
-    "static/js/main.6046034e.js"
+    "static/js/main.daddf177.js"
   ]
 }
