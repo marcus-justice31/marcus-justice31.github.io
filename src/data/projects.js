@@ -12,10 +12,74 @@ import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
 import bankingUI from "../assets/banners/bankingUI.png";
 import ecommerce_bi_dashboard from "../assets/banners/(compress)_ecommerce_bi_dashboard.png";
 import fm_bank_dashboard from "../assets/banners/(compress)_fm_bank_dashboard.png";
+import statement_processor from "../assets/banners/(compress)_statement_processor.png";
+import raspPi from "../assets/banners/(compress)_RaspPi.png";
 
+/* Project template */
+/*
+  {
+    title: "",
+    description:
+      "",
+    image: noIMGavailable,
+    tags: [
+      { name: "React", color: "#49d2f8ff" },
+
+    ],
+    github: "https://github.com/marcus-justice31/",
+    details: [
+      "Built a responsive React UI with reusable components",
+    ],
+  },
+*/
 const projects = [
   {
-    title: "Banking Web App (in progress)",
+    title: "AI Automation For Processing Visa Statements",
+    description:
+      "A self-hosted GUI that allows me to upload my visa statements, then have an AI workflow automatically process the spendings and insert them into a Google Sheet for tracking and budgeting purposes.",
+    image: statement_processor,
+    tags: [
+      { name: "React", color: "#49d2f8ff" },
+      { name: "Vite", color: "#9d1ef7ff" },
+      { name: "n8n", color: "#f3127b" },
+      { name: "OpenAI API", color: "#19af85ff" },
+      { name: "Google Sheets API", color: "#19af85ff" },
+      { name: "Raspberry Pi", color: "#f3127b" },
+      { name: "Linux", color: "#2c3030ff" },
+      { name: "nGinx", color: "#03b318" },
+    ],
+    github: "https://github.com/marcus-justice31/statement-processor",
+    details: [
+      "Built a React + Vite app that allows uploading visa statement PDFs via a clean drag-and-drop interface (validates file type and size before allowing upload)",
+      "Designed an n8n workflow to automate PDF processing, text extraction, AI-powered transaction parsing, and automatic insertion into Google Sheets",
+      "The app triggers the n8n workflow via an HTTP POST request to the n8n webhook URL, sending the uploaded PDF as binary data for processing",
+      "Deployed the application on my Raspberry Pi 4, served with nGinx and is accessible across any device on my local network, enabling for secure PDF processing without relying on third-party services",
+      "The AI workflow utilizes the OpenAI API to parse the extracted text and categorize the transactions, ensuring accurate and structured data is sent to the Google Sheets API for seamless financial tracking and budgeting",
+      "This project removes the repetitive and time-consuming task of manually entering transactions into a spreadsheet, while also providing a secure and private solution by keeping all processing local to my own hardware"
+    ],
+  },
+
+  {
+    title: "Self-Hosted n8n on Raspberry Pi",
+    description:
+      "Self-hosted n8n workflow automation on a Raspberry Pi, enabling local execution of custom workflows.",
+    image: raspPi,
+    tags: [
+      { name: "Raspberry Pi", color: "#f3127b" },
+      { name: "Linux", color: "#2c3030ff" },
+      { name: "Docker", color: "#0283d3" },
+      { name: "CloudFlare Tunnel", color: "#f7781eff" },
+    ],
+    github: "https://github.com/marcus-justice31/",
+    details: [
+      "Deployed n8n on my Raspberry Pi 4, utilizing Docker for containerization and ensuring efficient resource management on the limited hardware",
+      "The Docker container runs 24/7, allowing for reliable execution of automated workflows without needing to keep a separate computer on",
+      "Configured a Cloudflare Tunnel to expose the self-hosted n8n instance through an existing domain (which allows me to comunicate with APIs outside of my local network, while implementing strict access controls to ensure security and prevent unauthorized access)",
+    ],
+  },
+
+  {
+    title: "Banking Web App",
     description:
       "A full-stack banking app with real-time transaction tracking, multi-account integration, and secure money transfers using Next.js, Appwrite, and Plaid.",
     image: fm_bank_dashboard,
