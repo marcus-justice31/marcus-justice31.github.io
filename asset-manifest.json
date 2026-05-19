@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c834fde8.css",
-    "main.js": "/static/js/main.6a18ee70.js",
+    "main.js": "/static/js/main.4755cfbe.js",
     "static/media/(compress)_RaspPi.png": "/static/media/(compress)_RaspPi.ad86e3dea6c03699a230.png",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/cpu_implementation.png": "/static/media/cpu_implementation.7d5df68d4e4469837d99.png",
@@ -17,10 +17,10 @@
     "static/media/noIMGavailable.jpg": "/static/media/noIMGavailable.b725ea3f4bc773c78511.jpg",
     "index.html": "/index.html",
     "main.c834fde8.css.map": "/static/css/main.c834fde8.css.map",
-    "main.6a18ee70.js.map": "/static/js/main.6a18ee70.js.map"
+    "main.4755cfbe.js.map": "/static/js/main.4755cfbe.js.map"
   },
   "entrypoints": [
     "static/css/main.c834fde8.css",
-    "static/js/main.6a18ee70.js"
+    "static/js/main.4755cfbe.js"
   ]
 }
