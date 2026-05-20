@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.c834fde8.css",
-    "main.js": "/static/js/main.3c7dcc27.js",
-    "static/media/(compress)_RaspPi.png": "/static/media/(compress)_RaspPi.ad86e3dea6c03699a230.png",
+    "main.css": "/static/css/main.ad79a5e3.css",
+    "main.js": "/static/js/main.26910666.js",
+    "static/media/(compress)_raspPi_img1.png": "/static/media/(compress)_raspPi_img1.ad86e3dea6c03699a230.png",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
+    "static/media/p2p_3peersDownload.png": "/static/media/p2p_3peersDownload.c4921648fe69d62a93bb.png",
     "static/media/cpu_implementation.png": "/static/media/cpu_implementation.7d5df68d4e4469837d99.png",
     "static/media/SmartParkingDashboard.png": "/static/media/SmartParkingDashboard.da16164c506af50e2a82.png",
     "static/media/bankingUI.png": "/static/media/bankingUI.a4fb767b9c5b3d5eaa3e.png",
     "static/media/(compress)_smartsorting_ui.png": "/static/media/(compress)_smartsorting_ui.691b6cf468f989f5e327.png",
     "static/media/ecommerceUI.png": "/static/media/ecommerceUI.3e3aad05f28835d6fecc.png",
-    "static/media/(compress)_p2p_3peersDownload.png": "/static/media/(compress)_p2p_3peersDownload.e17e32d1fcb2b385ab3e.png",
     "static/media/(compress)_ecommerce_bi_dashboard.png": "/static/media/(compress)_ecommerce_bi_dashboard.611ae519053296fd37d6.png",
+    "static/media/(compress)_statementProcessor_img6.png": "/static/media/(compress)_statementProcessor_img6.fc2e6abb07a6cbb39335.png",
     "static/media/(compress)_fm_bank_dashboard.png": "/static/media/(compress)_fm_bank_dashboard.2054c4b014cce7261cb8.png",
+    "static/media/(compress)_raspPi_img2.png": "/static/media/(compress)_raspPi_img2.1c8bd4109158f7acd8af.png",
     "static/media/(compress)_ai_meal_dashboard.png": "/static/media/(compress)_ai_meal_dashboard.1c9b355a4b56d353bd9b.png",
-    "static/media/(compress)_statementProcessor.png": "/static/media/(compress)_statementProcessor.bd9ba7acc3bbe651d0ad.png",
+    "static/media/(compress)_statementProcessor_img4.png": "/static/media/(compress)_statementProcessor_img4.bd9ba7acc3bbe651d0ad.png",
+    "static/media/(compress)_statementProcessor_img2.png": "/static/media/(compress)_statementProcessor_img2.384f23d1e564e6fc666b.png",
+    "static/media/(compress)_statementProcessor_img3.png": "/static/media/(compress)_statementProcessor_img3.2c3a68687105fb9755bd.png",
+    "static/media/(compress)_statementProcessor_img7.png": "/static/media/(compress)_statementProcessor_img7.dbf68901fc25c1c688a0.png",
+    "static/media/(compress)_statementProcessor_img1.png": "/static/media/(compress)_statementProcessor_img1.c3c610592fec1c924daa.png",
     "static/media/noIMGavailable.jpg": "/static/media/noIMGavailable.b725ea3f4bc773c78511.jpg",
     "index.html": "/index.html",
-    "main.c834fde8.css.map": "/static/css/main.c834fde8.css.map",
-    "main.3c7dcc27.js.map": "/static/js/main.3c7dcc27.js.map"
+    "main.ad79a5e3.css.map": "/static/css/main.ad79a5e3.css.map",
+    "main.26910666.js.map": "/static/js/main.26910666.js.map"
   },
   "entrypoints": [
-    "static/css/main.c834fde8.css",
-    "static/js/main.3c7dcc27.js"
+    "static/css/main.ad79a5e3.css",
+    "static/js/main.26910666.js"
   ]
 }
