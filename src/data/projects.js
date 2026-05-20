@@ -1,21 +1,38 @@
-// import placeHolderImg from "../assets/banners/image-coming-soon-placeholder.webp";
-// import placeHolder from "../assets/banners/placeHolder.jpg";
 import noIMGavailable from "../assets/banners/noIMGavailable.jpg";
 import mealDashboardImg from "../assets/banners/(compress)_ai_meal_dashboard.png";
 import smartSortingUiImg from "../assets/banners/(compress)_smartsorting_ui.png";
 import smartParkingImg from "../assets/banners/SmartParkingDashboard.png";
-import ecommerceUI from "../assets/banners/ecommerceUI.png";
-// import ecommerceUI2 from "../assets/banners/ecommerceUI2.png";
-import cpu_implementation from "../assets/banners/cpu_implementation.png";
-import p2p_3peersDownload from "../assets/banners/(compress)_p2p_3peersDownload.png"
+
 import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
 import bankingUI from "../assets/banners/bankingUI.png";
 import ecommerce_bi_dashboard from "../assets/banners/(compress)_ecommerce_bi_dashboard.png";
 import fm_bank_dashboard from "../assets/banners/(compress)_fm_bank_dashboard.png";
-import statement_processor from "../assets/banners/(compress)_statement_processor.png";
-import raspPi from "../assets/banners/(compress)_RaspPi.png";
 
-/* Project template */
+
+/* ----Statement Processor Images---- */
+import sp_img1 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img1.png";
+import sp_img2 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img2.png";
+import sp_img3 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img3.png";
+import sp_img4 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img4.png";
+import sp_img6 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img6.png";
+import sp_img7 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img7.png";
+
+/* ----Raspberry Pi Hosting Images---- */
+import rp_img1 from "../assets/banners/raspberryPi_images/(compress)_raspPi_img1.png";
+import rp_img2 from "../assets/banners/raspberryPi_images/(compress)_raspPi_img2.png";
+
+/* ----Peer-to-Peer App Images---- */
+import p2p_3peersDownload from "../assets/banners/p2p_images/p2p_3peersDownload.png"
+
+/* ----Ecommerce UI Images---- */
+import ecommerceUI from "../assets/banners/ecommerce_images/ecommerceUI.png";
+// import ecommerceUI2 from "../assets/banners/ecommerce_images/ecommerceUI2.png";
+
+/* ----CPU Implementation Images---- */
+import cpu_implementation from "../assets/banners/cpuImplementation_images/cpu_implementation.png";
+
+
+/* ----Project template----- */
 /*
   {
     title: "",
@@ -37,7 +54,7 @@ const projects = [
     title: "AI Automation For Processing Visa Statements",
     description:
       "A self-hosted GUI that allows me to upload my visa statements, then have an AI workflow automatically process the spendings and insert them into a Google Sheet for tracking and budgeting purposes.",
-    image: statement_processor,
+    images: [ sp_img1, sp_img2, sp_img3, sp_img4, sp_img6, sp_img7 ],
     tags: [
       { name: "React", color: "#49d2f8ff" },
       { name: "Vite", color: "#9d1ef7ff" },
@@ -51,11 +68,13 @@ const projects = [
     github: "https://github.com/marcus-justice31/statement-processor",
     details: [
       "Built a React + Vite app that allows uploading visa statement PDFs via a clean drag-and-drop interface (validates file type and size before allowing upload)",
-      "Designed an n8n workflow to automate PDF processing, text extraction, AI-powered transaction parsing, and automatic insertion into Google Sheets",
+      "Designed an n8n workflow to automate PDF processing, transaction data extraction and parsing, classify transaction into spending categories, and inserts into Google Sheets",
       "The app triggers the n8n workflow via an HTTP POST request to the n8n webhook URL, sending the uploaded PDF as binary data for processing",
-      "Deployed the application on my Raspberry Pi 4, served with nGinx and is accessible across any device on my local network, enabling for secure PDF processing without relying on third-party services",
+      "Locally-hosted the application on my Raspberry Pi 4, served with nGinx and is accessible across any device on my local network, enabling for secure PDF processing without relying on third-party services",
+      // "Deployed the application on my Raspberry Pi 4, served with nGinx and is accessible across any device on my local network, enabling for secure PDF processing without relying on third-party services",
       "The AI workflow utilizes the OpenAI API to parse the extracted text and categorize the transactions, ensuring accurate and structured data is sent to the Google Sheets API for seamless financial tracking and budgeting",
-      "This project removes the repetitive and time-consuming task of manually entering transactions into a spreadsheet, while also providing a secure and private solution by keeping all processing local to my own hardware"
+      "This project removes the repetitive and time-consuming task of manually entering transactions into a spreadsheet, while also providing a secure and private solution by keeping all processing local to my own hardware",
+       "Reduced the time spent on manual data entry by over 90%, making the process 25x faster"
     ],
   },
 
@@ -63,7 +82,7 @@ const projects = [
     title: "Self-Hosted n8n on Raspberry Pi",
     description:
       "Self-hosted n8n workflow automation on a Raspberry Pi, enabling local execution of custom workflows.",
-    image: raspPi,
+    images: [ rp_img1, rp_img2 ],
     tags: [
       { name: "Raspberry Pi", color: "#f3127b" },
       { name: "Linux", color: "#2c3030ff" },
@@ -91,7 +110,7 @@ const projects = [
       { name: "Shadcn", color: "#353535" },
       { name: "Zod", color: "#004793" },
       { name: "Plaid", color: "#353535" },
-      
+
     ],
     github: "https://github.com/marcus-justice31/Finance-Management-Banking-App",
     details: [
@@ -144,7 +163,7 @@ const projects = [
       { name: "FastAPI", color: "#55d5b5ff" },
       { name: "OpenAI API", color: "#19af85ff" },
       { name: "MongoDB", color: "#00684A" },
-      
+
     ],
     github: "https://github.com/marcus-justice31/ai-meal-plan",
     details: [
@@ -168,7 +187,7 @@ const projects = [
       { name: "HTML", color: "#f7781eff" },
       { name: "CSS", color: "#9d1ef7ff" },
       { name: "Flask", color: "#2e9db3ff" },
-      { name: "Ultralytics", color: "#00253cff"},
+      { name: "Ultralytics", color: "#00253cff" },
       { name: "Git", color: "#2c3030ff" },
     ],
     github: "https://github.com/marcus-justice31/smart-sorting-waste-system",
@@ -228,6 +247,7 @@ const projects = [
       "Utilized the ReactJS framework to create an interactive webpage for adding and deleting items to a shopping cart",
       "Implemented a checkout system using PayPal’s JavaScript SDK and PayPal’s REST APIs",
       "Utilized the ExpressJS framework to employ middleware to transmit shopping cart data as JSON to the server, then to store it onto a NoSQL cloud database",
+      "My motive for this project was to work towards buidling an application to help streamline the ordering process for my mom's small baking business, while learning more about full-stack web development and payment gateway integration"
     ],
   },
 
