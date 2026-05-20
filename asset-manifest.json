@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad79a5e3.css",
-    "main.js": "/static/js/main.26910666.js",
+    "main.css": "/static/css/main.ec85b40f.css",
+    "main.js": "/static/js/main.7e0358f2.js",
     "static/media/(compress)_raspPi_img1.png": "/static/media/(compress)_raspPi_img1.ad86e3dea6c03699a230.png",
     "static/media/onlineOrderUI.png": "/static/media/onlineOrderUI.02364ba28275a0d1ae53.png",
     "static/media/p2p_3peersDownload.png": "/static/media/p2p_3peersDownload.c4921648fe69d62a93bb.png",
@@ -22,11 +22,11 @@
     "static/media/(compress)_statementProcessor_img1.png": "/static/media/(compress)_statementProcessor_img1.c3c610592fec1c924daa.png",
     "static/media/noIMGavailable.jpg": "/static/media/noIMGavailable.b725ea3f4bc773c78511.jpg",
     "index.html": "/index.html",
-    "main.ad79a5e3.css.map": "/static/css/main.ad79a5e3.css.map",
-    "main.26910666.js.map": "/static/js/main.26910666.js.map"
+    "main.ec85b40f.css.map": "/static/css/main.ec85b40f.css.map",
+    "main.7e0358f2.js.map": "/static/js/main.7e0358f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad79a5e3.css",
-    "static/js/main.26910666.js"
+    "static/css/main.ec85b40f.css",
+    "static/js/main.7e0358f2.js"
   ]
 }
