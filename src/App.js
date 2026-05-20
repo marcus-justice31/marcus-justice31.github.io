@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import TechFilter from "./components/TechFilter";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   const [activeTags, setActiveTags] = useState([]);
@@ -47,10 +48,7 @@ function App() {
 
       {/* Contact */}
       <section>
-        <h3>Contact</h3>
-        <p>Email: marcusjustice.uy@gmail.com</p>
-        <p>GitHub: github.com/marcus-justice31</p>
-        <p>LinkedIn: linkedin.com/in/marcus-uy</p>
+        <Footer />
       </section>
     </div>
   );
