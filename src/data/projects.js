@@ -1,13 +1,7 @@
 import noIMGavailable from "../assets/banners/noIMGavailable.jpg";
 import mealDashboardImg from "../assets/banners/(compress)_ai_meal_dashboard.png";
-import smartSortingUiImg from "../assets/banners/(compress)_smartsorting_ui.png";
-import smartParkingImg from "../assets/banners/SmartParkingDashboard.png";
-
 import onlineOrderUI from "../assets/banners/onlineOrderUI.png";
 import bankingUI from "../assets/banners/bankingUI.png";
-import ecommerce_bi_dashboard from "../assets/banners/(compress)_ecommerce_bi_dashboard.png";
-import fm_bank_dashboard from "../assets/banners/(compress)_fm_bank_dashboard.png";
-
 
 /* ----Statement Processor Images---- */
 import sp_img1 from "../assets/banners/statementProcessor_images/(compress)_statementProcessor_img1.png";
@@ -20,6 +14,28 @@ import sp_img7 from "../assets/banners/statementProcessor_images/(compress)_stat
 /* ----Raspberry Pi Hosting Images---- */
 import rp_img1 from "../assets/banners/raspberryPi_images/(compress)_raspPi_img1.png";
 import rp_img2 from "../assets/banners/raspberryPi_images/(compress)_raspPi_img2.png";
+
+/* ----Banking Web App Images---- */
+import fm_bank_img1 from "../assets/banners/fmBank_images/(compress)_fmBank_img1.png";
+import fm_bank_img2 from "../assets/banners/fmBank_images/(compress)_fmBank_img2.png";
+import fm_bank_img3 from "../assets/banners/fmBank_images/(compress)_fmBank_img3.png";
+
+/* ----Ecommerce BI Dashboard Images---- */
+import ecommerce_bi_dashboard from "../assets/banners/ecomBI_images/(compress)_ecommerce_bi_dashboard.png";
+
+/* ----Smart Sorting System Images---- */
+import sss_img1 from "../assets/banners/wasteClassification_images/(compress)_sw_img1.png";
+import sss_img2 from "../assets/banners/wasteClassification_images/(compress)_sw_img2.png";
+import sss_img4 from "../assets/banners/wasteClassification_images/(compress)_sw_img4.png";
+import sss_img5 from "../assets/banners/wasteClassification_images/(compress)_sw_img5.png";
+
+/* ----Smart Parking System Images---- */
+import smartParking_img1 from "../assets/banners/smartParking_images/(compress)_sp_img1.png";
+import smartParking_img2 from "../assets/banners/smartParking_images/(compress)_sp_img2.png";
+import smartParking_img3 from "../assets/banners/smartParking_images/(compress)_sp_img3.png";
+import smartParking_img4 from "../assets/banners/smartParking_images/(compress)_sp_img4.png";
+import smartParking_img5 from "../assets/banners/smartParking_images/(compress)_sp_img5.png";
+import smartParking_img6 from "../assets/banners/smartParking_images/(compress)_sp_img6.png";
 
 /* ----Peer-to-Peer App Images---- */
 import p2p_3peersDownload from "../assets/banners/p2p_images/p2p_3peersDownload.png"
@@ -101,7 +117,7 @@ const projects = [
     title: "Banking Web App",
     description:
       "A full-stack banking app with real-time transaction tracking, multi-account integration, and secure money transfers using Next.js, Appwrite, and Plaid.",
-    image: fm_bank_dashboard,
+    images: [ fm_bank_img1, fm_bank_img2, fm_bank_img3 ],
     tags: [
       { name: "TypeScript", color: "#0283d3ff" },
       { name: "Tailwind CSS", color: "#9d1ef7ff" },
@@ -177,10 +193,10 @@ const projects = [
   },
 
   {
-    title: "Smart Waste Sorting System",
+    title: "Waste Classification System",
     description:
       "A YOLOv11-powered Smart Waste Sorting System for real-time waste classification into garbage, recyclables, and compost.",
-    image: smartSortingUiImg,
+    images: [ sss_img1, sss_img2, sss_img4, sss_img5 ],
     tags: [
       { name: "React", color: "#49d2f8ff" },
       { name: "Python", color: "#0283d3ff" },
@@ -203,7 +219,7 @@ const projects = [
     title: "Smart Parking System",
     description:
       "A cloud-native, smart parking system that simulates IoT sensors to monitor parking space availability in real-time.",
-    image: smartParkingImg,
+    images: [ smartParking_img1, smartParking_img2, smartParking_img3, smartParking_img4, smartParking_img5, smartParking_img6 ],
     tags: [
       { name: "React", color: "#49d2f8ff" },
       { name: "Python", color: "#0283d3ff" },
