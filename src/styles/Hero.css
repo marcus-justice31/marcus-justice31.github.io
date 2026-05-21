@@ -5,8 +5,8 @@
   padding: 60px 20px;
   background: linear-gradient(135deg, #0f172a, #020617);
   color: white;
-  justify-content: center;   /* centers horizontally */
-  text-align: center;        /* centers text */
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-content {
@@ -35,26 +35,27 @@
   color: #38bdf8;
 }
 
+/* ── Primary CTA buttons ── */
 .hero-actions {
   display: flex;
   gap: 15px;
-  justify-content: center;  /* centers buttons */
+  justify-content: center;
   margin-top: 30px;
 }
 
-/* BUTTONS */
 .btn {
   padding: 12px 22px;
   border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
   transition: transform 0.15s ease, background 0.15s ease;
+  cursor: pointer;
 }
 
 .btn.primary {
   background: #38bdf8;
   color: #020617;
-  align-items: center;
+  border: none;
 }
 
 .btn.primary:hover {
@@ -65,10 +66,64 @@
 .btn.secondary {
   border: 2px solid #38bdf8;
   color: #38bdf8;
-  align-items: center;
+  background: transparent;
 }
 
 .btn.secondary:hover {
   background: #38bdf8;
   color: #020617;
+  transform: translateY(-2px);
+}
+
+/* ── Social icon buttons ── */
+.hero-socials {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #94a3b8;
+  text-decoration: none;
+  border: 1px solid #1e293b;
+  background: rgba(255, 255, 255, 0.03);
+  transition: color 0.2s ease, border-color 0.2s ease,
+              background 0.2s ease, transform 0.2s ease;
+}
+
+.social-btn svg {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.social-btn:hover {
+  color: #38bdf8;
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.07);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-socials {
+    flex-direction: column;
+    align-items: center;
+  }
 }

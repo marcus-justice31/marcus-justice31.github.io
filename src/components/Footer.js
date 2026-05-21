@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-inner">
         <div className="footer-brand">
           <span className="footer-name">Marcus Uy</span>
-          <span className="footer-role">Software Engineer</span>
+          <span className="footer-role">Software Engineer Graduate</span>
         </div>
  
         <div className="footer-links">
