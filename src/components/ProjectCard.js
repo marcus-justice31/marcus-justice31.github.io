@@ -122,4 +122,3 @@ function ProjectCard({ project }) {
 }
  
 export default ProjectCard;
- 
