@@ -32,7 +32,7 @@ const legoBuilds = [
     ],
     category: "Downtown",
     pieceCount: 22935,
-    funFact: "The lights are linked together and connected to a central USB hub connected to an outlet power source. The hub is connected to an app on my phone that allows me to power on and off the city lights.",
+    funFact: "The lights are linked together to a central USB hub connected to an outlet power source. The hub is connected to an app on my phone that allows me to power on and off the city lights :)",
   },
 ];
 
