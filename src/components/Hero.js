@@ -1,6 +1,6 @@
 import "../styles/Hero.css";
 
-const Hero = ({ onViewProjects }) => {
+const Hero = ({ onViewProjects, onViewLego }) => {
   const year = new Date().getFullYear();
 
   return (
@@ -77,6 +77,13 @@ const Hero = ({ onViewProjects }) => {
             LinkedIn
           </a>
         </div>
+
+        {/* Fun, lower-key link to the LEGO City page */}
+        {onViewLego && (
+          <button className="hero-lego-link" onClick={onViewLego}>
+            🧱 Check out my LEGO City
+          </button>
+        )}
       </div>
 
       <div className="hero-divider" />

@@ -201,6 +201,28 @@
   transform: translateY(-2px);
 }
 
+/* ── LEGO City link (fun, low-key, not a primary CTA) ── */
+.hero-lego-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: #475569;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 6px 4px;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.hero-lego-link:hover {
+  color: #ffd500;
+  transform: translateY(-1px);
+}
+
 /* ── Bottom divider ── */
 .hero-divider {
   position: absolute;

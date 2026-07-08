@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import TechFilter from "./components/TechFilter";
+import LegoCity from "./components/LegoCity";
 import "./App.css";
 import Footer from "./components/Footer";
 
@@ -11,6 +12,7 @@ function App() {
   const [activeTags, setActiveTags] = useState([]);
 
   const filterRef = useRef(null);
+  const legoRef = useRef(null);
 
   const allTags = Array.from(
     new Map(
@@ -24,6 +26,12 @@ function App() {
       <Hero 
         onViewProjects={() =>
             filterRef.current?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            })
+        }
+        onViewLego={() =>
+            legoRef.current?.scrollIntoView({
               behavior: "smooth",
               block: "start",
             })
@@ -45,6 +53,8 @@ function App() {
           activeTags={activeTags}
         />
       </section>
+
+      <LegoCity sectionRef={legoRef} />
 
       {/* Contact */}
       <section>

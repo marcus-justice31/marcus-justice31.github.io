@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap');
+
+.lego-city {
+  padding: 80px 20px 96px;
+  background: #020617;
+  color: white;
+}
+
+.lego-city-header {
+  max-width: 700px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+/* ── Badge, same shape as the hero badge, LEGO-colored ── */
+.lego-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 213, 0, 0.08);
+  border: 0.5px solid rgba(255, 213, 0, 0.35);
+  border-radius: 999px;
+  padding: 5px 16px;
+  font-size: 11px;
+  color: #ffd500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.lego-badge-dot {
+  width: 6px;
+  height: 6px;
+  background: #ffd500;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.lego-h2 {
+  font-family: 'Baloo 2', sans-serif;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 14px;
+  color: #f1f5f9;
+}
+
+.lego-h2-accent {
+  color: #e3000b;
+  -webkit-text-stroke: 0.5px #ffd500;
+}
+
+.lego-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* ── Grid ── */
+.lego-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+@media (max-width: 600px) {
+  .lego-city {
+    padding: 56px 16px 72px;
+  }
+}
+
+/* ── Card styles (previously in LegoBuildCard.css) ── */
+.lego-card {
+  background: #0f172a;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lego-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+}
+
+.lego-card-studs {
+  height: 14px;
+  background-image: radial-gradient(
+    circle at 16px 7px,
+    var(--stud-color) 4.5px,
+    transparent 5px
+  );
+  background-size: 32px 14px;
+  background-repeat: repeat-x;
+  background-position: 8px center;
+  opacity: 0.9;
+}
+
+.lego-card-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: #1e293b;
+  overflow: hidden;
+}
+
+/* Expand hint icon, shown on hover to signal the image is clickable */
+.lego-card-image-wrapper::after {
+  content: "⤢";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.85);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.lego-card-image-wrapper:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.lego-card-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.lego-card:hover .lego-card-image-wrapper img {
+  transform: scale(1.04);
+}
+
+.lego-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  z-index: 2;
+}
+
+.lego-card-image-wrapper:hover .lego-carousel-btn {
+  opacity: 1;
+}
+
+.lego-carousel-btn:hover {
+  background: rgba(56, 189, 248, 0.75);
+}
+
+.lego-carousel-btn--prev {
+  left: 8px;
+}
+
+.lego-carousel-btn--next {
+  right: 8px;
+}
+
+.lego-carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+
+.lego-carousel-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.lego-carousel-dot.active {
+  background: #38bdf8;
+  transform: scale(1.25);
+}
+
+.lego-piece-badge {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 3px 9px;
+  border-radius: 999px;
+  z-index: 2;
+  letter-spacing: 0.03em;
+}
+
+.lego-card-body {
+  padding: 20px 22px 22px;
+}
+
+.lego-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.lego-card-heading h4 {
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.lego-tag {
+  flex-shrink: 0;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--tag-color);
+  border: 1px solid var(--tag-color);
+  background: color-mix(in srgb, var(--tag-color) 14%, transparent);
+  white-space: nowrap;
+}
+
+.lego-description {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #cbd5f5;
+  margin: 0 0 12px;
+}
+
+.lego-funfact-toggle {
+  background: none;
+  border: none;
+  color: #38bdf8;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.lego-funfact-toggle:hover {
+  text-decoration: underline;
+}
+
+.lego-funfact {
+  margin: 8px 0 0;
+  padding: 10px 12px;
+  background: rgba(56, 189, 248, 0.08);
+  border-left: 3px solid #38bdf8;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #e2e8f0;
+  line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+  .lego-card-image-wrapper {
+    height: 180px;
+  }
+
+  .lego-carousel-btn {
+    opacity: 1;
+  }
+}
+
+/* ── Lightbox ── */
+@keyframes lego-lightbox-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lego-lightbox-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.lego-lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  z-index: 1000;
+  cursor: zoom-out;
+  animation: lego-lightbox-fade-in 0.18s ease;
+}
+
+.lego-lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  cursor: default;
+  animation: lego-lightbox-pop-in 0.22s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+
+.lego-lightbox-image {
+  display: block;
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+}
+
+.lego-lightbox-close {
+  position: fixed;
+  top: 20px;
+  right: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 1001;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.lego-lightbox-close:hover {
+  color: #ffd500;
+  transform: scale(1.1);
+}
+
+/* Nav buttons/dots reuse .lego-carousel-btn/.lego-carousel-dot,
+   just force them visible (they're normally hover-only on the card) */
+.lego-lightbox-btn {
+  opacity: 1;
+}
+
+.lego-lightbox-dots {
+  bottom: -32px;
+}
+
+@media (max-width: 600px) {
+  .lego-lightbox-backdrop {
+    padding: 24px;
+  }
+
+  .lego-lightbox-close {
+    top: 12px;
+    right: 16px;
+    font-size: 1.8rem;
+  }
+}
