@@ -1,6 +1,6 @@
 import "../styles/Hero.css";
 
-const Hero = ({ onViewProjects, onViewLego }) => {
+const Hero = ({ onViewProjects, onViewLego, onViewCertifications }) => {
   const year = new Date().getFullYear();
 
   return (
@@ -78,11 +78,20 @@ const Hero = ({ onViewProjects, onViewLego }) => {
           </a>
         </div>
 
-        {/* Fun, lower-key link to the LEGO City page */}
-        {onViewLego && (
-          <button className="hero-lego-link" onClick={onViewLego}>
-            🧱 Check out my LEGO City
-          </button>
+        {/* Secondary, lower-key links to bonus sections */}
+        {(onViewLego || onViewCertifications) && (
+          <div className="hero-secondary-links">
+            {onViewCertifications && (
+              <button className="hero-secondary-link" onClick={onViewCertifications}>
+                🎓 View Certifications
+              </button>
+            )}
+            {onViewLego && (
+              <button className="hero-secondary-link" onClick={onViewLego}>
+                🧱 Check out my LEGO City
+              </button>
+            )}
+          </div>
         )}
       </div>
 

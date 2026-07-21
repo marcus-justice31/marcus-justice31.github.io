@@ -201,12 +201,20 @@
   transform: translateY(-2px);
 }
 
-/* ── LEGO City link (fun, low-key, not a primary CTA) ── */
-.hero-lego-link {
+/* ── Secondary links row (LEGO City, Certifications, etc.) ── */
+.hero-secondary-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.hero-secondary-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin-top: 20px;
   background: none;
   border: none;
   color: #475569;
@@ -218,7 +226,7 @@
   transition: color 0.15s ease, transform 0.15s ease;
 }
 
-.hero-lego-link:hover {
+.hero-secondary-link:hover {
   color: #ffd500;
   transform: translateY(-1px);
 }

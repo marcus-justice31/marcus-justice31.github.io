@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import TechFilter from "./components/TechFilter";
+import Certifications from "./components/Certifications";
 import LegoCity from "./components/LegoCity";
 import "./App.css";
 import Footer from "./components/Footer";
@@ -13,6 +14,7 @@ function App() {
 
   const filterRef = useRef(null);
   const legoRef = useRef(null);
+  const certRef = useRef(null);
 
   const allTags = Array.from(
     new Map(
@@ -36,6 +38,12 @@ function App() {
               block: "start",
             })
         }
+        onViewCertifications={() =>
+            certRef.current?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            })
+        }
       />
 
       <About />
@@ -53,6 +61,8 @@ function App() {
           activeTags={activeTags}
         />
       </section>
+
+      <Certifications sectionRef={certRef} />
 
       <LegoCity sectionRef={legoRef} />
 
